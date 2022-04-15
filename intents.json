@@ -1,0 +1,201 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "home",
+      "patterns": [
+        "How long does home take?",
+        "How long does shipping home?",
+        "When do I get my home?"
+      ],
+      "responses": [
+        "Delivery at home will be done",
+        "Home sweet home"
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "exam"
+      ],
+      "responses": [
+        "In which year you are studying?"
+      ]
+    },
+    {
+      "tag": "year1",
+      "patterns": [
+        "first",
+        "second",
+        "1st",
+        "2nd",
+        "1",
+        "2"
+      ],
+      "responses": [
+        "Not currently eligible for higher studies exam..."
+      ]
+    },
+    {
+      "tag": "year2",
+      "patterns": [
+        "third",
+        "forth",
+        "3rd",
+        "4th",
+        "3",
+        "4",
+        "final"
+      ],
+      "responses": [
+        "Are you intrested in masters?"
+      ]
+    },
+    {
+      "tag": "examPlace",
+      "patterns": [
+        "yes"
+      ],
+      "responses": [
+        "india or abroad?"
+      ]
+    },
+    {
+      "tag": "examPlace2",
+      "patterns": [
+        "no"
+      ],
+      "responses": [
+        "ok...all the best for your future"
+      ]
+    },
+    {
+      "tag": "abroad",
+      "patterns": [
+        "abroad"
+      ],
+      "responses": [
+        "You can apply for GRE, GMAT, IELTS, TOEFL, SAT, ACT etc. for abroad studies. You want more information of exams then type 'exam-A' "
+      ]
+    },
+    {
+      "tag": "india",
+      "patterns": [
+        "india"
+      ],
+      "responses": [
+        "You can apply for GATE, IPU CET, BHU PET, TANCET etc. for masters in India. You want more information of exams then type 'exam-B'"
+      ]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+        "Do you love this?",
+        "I love you",
+        "Love"
+      ],
+      "responses": [
+        "Sweet of you",
+        "Thanks love",
+        "i loved it"
+      ]
+    },
+    {
+      "tag": "exam-a",
+      "patterns": [
+        "exam-A"
+      ],
+      "responses": [
+         "https://vikaspedia.in/education/career-guidance/entrance-examinations/international-entrance-exams-to-study-overseas"
+      ]
+    },
+    {
+      "tag": "exam-b",
+      "patterns": [
+        "exam-B"
+      ],
+      "responses": [
+        "https://www.collegedekho.com/articles/list-of-mtech-entrance-exams/"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
